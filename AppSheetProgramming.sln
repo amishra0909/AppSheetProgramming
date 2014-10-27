@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppSheetProgramming", "AppSheetProgramming\AppSheetProgramming.csproj", "{3B548773-18F9-4D10-BCB5-B1F7BC27613D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B548773-18F9-4D10-BCB5-B1F7BC27613D}.Debug|x86.ActiveCfg = Debug|x86
+		{3B548773-18F9-4D10-BCB5-B1F7BC27613D}.Debug|x86.Build.0 = Debug|x86
+		{3B548773-18F9-4D10-BCB5-B1F7BC27613D}.Release|x86.ActiveCfg = Release|x86
+		{3B548773-18F9-4D10-BCB5-B1F7BC27613D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
