@@ -14,6 +14,10 @@ namespace AppSheetProgramming
         {
             string request = createRequest(token);
             Ids ids = service.makeRequest(request, typeof(Ids)) as Ids;
+            if (ids == null)
+            {
+                throw new ArgumentException("Null response for token : " + token);
+            }
             return ids;
         }
 
