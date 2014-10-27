@@ -18,5 +18,8 @@ namespace AppSheetProgramming
         
         [DataMember(Name = "age")]
         public int age { get; set; }
+
+        [DataMember(Name = "error")]
+        public string error { get; set; }
     }
 }

@@ -15,6 +15,12 @@ namespace AppSheetProgramming
         {
             string request = createRequest(id);
             Detail detail = service.makeRequest(request, typeof(Detail)) as Detail;
+
+            // For bad ids response is 200 ok with error string, so throw an exception when error is valid.
+            if (!String.IsNullOrEmpty(detail.error))
+            {
+                throw new ArgumentException(detail.error);
+            }
             if (isNumberValidInResponse(detail.number))
             {
                 return detail;
